@@ -124,7 +124,7 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
 max-width: 496px;
-margin-bottom: 48px;
+padding-bottom: 48px;
 margin: auto;
 }
 .button {
@@ -147,13 +147,21 @@ margin: auto;
     background-color: #404bbf;
 }
 
+
+/* --------section2------- */
 .section-main {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
+
+.section-second {
+    padding: 120px 0;
+}
+
 .section-text {
         font-weight: 400;
         font-size: 16px;
@@ -169,14 +177,51 @@ margin: auto;
         color: #2e2f42;
         text-transform: capitalize;
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.section-list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+/* ------------section3------- */
 .section-photo {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
+
+.page-section {
+    margin-bottom: 72px;
+}
+
 .photo-item {
     background-color: #FFFFFF
+    width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
 }
+
 .list-photo {
-   text-transform: capitalize;}
+   text-transform: capitalize;
+   display: flex;
+   align-items: center;
+   gap: 24px;
+}
+
+.items-text {
+    padding: 32px 0;
+    text-align: center;
+}
 
    /* -------------------------------footer------------------------------- */
 
