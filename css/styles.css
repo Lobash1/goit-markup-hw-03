@@ -237,9 +237,8 @@ margin: auto;
    display: flex;
    align-items: center;
    flex-wrap: wrap;
-   column-gap: 24px;
+   gap: 24px;
    row-gap: 48px;
-
 }
 
 .items-text {
@@ -263,6 +262,16 @@ margin: auto;
     padding: 32px 16px;
     border-top: none;
         
+}
+
+.list-photos {
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+
 }
    /* -------------------------------footer------------------------------- */
 
