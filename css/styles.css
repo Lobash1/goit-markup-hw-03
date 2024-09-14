@@ -225,8 +225,9 @@ margin: auto;
 }
 
 .photo-item {
-    background-color: #FFFFFF width: calc((100% - 72px) / 4);
+    calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
+    background-color: #fff;
 }
 
 /*  border-radius: 0 0 4px 4px;
@@ -238,7 +239,7 @@ margin: auto;
    flex-wrap: wrap;
    column-gap: 24px;
    row-gap: 48px;
-   gap: 24px;
+
 }
 
 .items-text {
