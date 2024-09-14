@@ -230,16 +230,12 @@ margin: auto;
     background-color: #fff;
 }
 
-/*  border-radius: 0 0 4px 4px;
- background: #fff; */
 .list-photo {
     text-transform: capitalize;
    display: flex;
    align-items: center;
-   flex-wrap: wrap;
    gap: 24px;
-   row-gap: 48px;
-}
+   
 
 .items-text {
     display: flex;
